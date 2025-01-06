@@ -19,7 +19,7 @@ zinit wait'1' lucid \
 	light-mode for @ajeetdsouza/zoxide
 
 # zsh-autosuggestion
-zinit ice wait"1" lucid
+zinit ice wait"2" lucid
 zinit light zsh-users/zsh-autosuggestions
 
 # zsh-completion
@@ -29,3 +29,7 @@ zinit light zsh-users/zsh-completions
 # fast-syntax-highlighting
 zinit ice wait lucid
 zinit light zdharma-continuum/fast-syntax-highlighting
+
+# fzf-tab
+zinit ice wait"1" lucid
+zinit light Aloxaf/fzf-tab
